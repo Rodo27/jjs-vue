@@ -120,6 +120,16 @@ const routes = [
                 component: () => import('./pages/Bandeja.vue')
             },
             {
+                path: '/proceso',
+                name: 'proceso',
+                component: () => import('./pages/Proceso.vue')
+            },
+            {
+                path: '/enproceso',
+                name: 'enproceso',
+                component: () => import('./pages/EnProceso.vue')
+            },
+            {
                 path: '/timeline',
                 name: 'timeline',
                 component: () => import('./pages/TimelineDemo.vue')

@@ -87,6 +87,8 @@ export default {
                         {label: 'Access Denied', icon: 'pi pi-fw pi-lock', to: '/access'},
 						{label: 'Empty', icon: 'pi pi-fw pi-circle-off', to: '/empty'},
                         {label: 'Bandeja', icon: 'pi pi-fw pi-circle-off', to: '/bandeja'},
+                        {label: 'Proceso', icon: 'pi pi-fw pi-circle-off', to: '/proceso'},
+                        {label: 'EnProceso', icon: 'pi pi-fw pi-circle-off', to: '/enproceso'},
 					]
 				},
                 {
