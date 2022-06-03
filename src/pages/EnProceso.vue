@@ -5,7 +5,7 @@
             <h4>Timeline</h4>
 
             <h5>Custom Timeline</h5>
-            <Timeline :value="customEvents" align="alternate" class="customized-timeline">
+            <Timeline :value="customEvents" align="left" class="customized-timeline">
                 <template #marker="slotProps">
                 <span class="flex w-2rem h-2rem align-items-center justify-content-center text-white border-circle z-1 shadow-2" :style="{backgroundColor: slotProps.item.color}">
                     <i :class="slotProps.item.icon"></i>
@@ -30,7 +30,7 @@
             </Timeline>
 
             <h5 style="margin-top: 5em">Horizontal - Alternate Align</h5>
-            <Timeline :value="horizontalEvents" layout="vertical" align="left">
+            <Timeline :value="horizontalEvents" layout="vertical" align="alternate">
                 <template #content="slotProps">
                     {{slotProps.item}}
                 </template>
