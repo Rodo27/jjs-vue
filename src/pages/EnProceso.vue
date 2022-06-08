@@ -55,10 +55,8 @@ export default {
     }
 }
 </script>
-<style lang="scss" scoped>
-    .ui-panel .ui-panel-titlebar-icon {
-        float: right;
-    }
+
+<style  scoped>
 
 </style>
 
